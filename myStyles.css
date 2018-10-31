@@ -7,13 +7,13 @@
 .box-on-main-page{
     width: 200px;
     height: 235px;
-    background-color: rgba(254, 242, 243, 0.59);
-   display: inline-block;
-    border-radius: 5px;
+    /*background-color: rgba(254, 24, 21, 0.59);*/
+    display: inline-block;
+    /*border-radius: 5px;*/
     margin-right: 10px;
     margin-bottom: 10px;
     vertical-align: top;
-    color: brown;
+    color: #23a50c;
 }
 
 .button-in-box{
@@ -33,23 +33,39 @@
     background-color: antiquewhite;
     border-radius: 5px;
     width: 840px;
-    font-family: "Calibri", "Arial", sans-serif;
+    //font-family: "Calibri", "Arial", serif;
     font-size: 1.5rem;
     font-weight: 700;
     text-transform: uppercase;
     color: rgba(175, 19, 22, 0.88);
     alignment: right;
+    font-family: 'Andika', sans-serif;
 }
 
 figure{
     width: 200px;
+    height: 200px;
     float: left; /* Выстраиваем элементы по горизонтали */
     margin: 0 0 0 0; /* Отступ слева */
-    background: #f0d3cd; /* Цвет фона */
-    border-radius: 2px; /* Радиус скругления */
-
+    /*background: #23a50c; !* Цвет фона *!*/
+    /*border-radius: 0px; !* Радиус скругления *!*/
+    overflow: hidden;
 }
+
+figure img{
+    width: 100%; /* Ширина изображений */
+    height: 100%; /* Высота изображении */
+    object-fit: cover; /* Вписываем фотографию в область */
+
+    }
 figure:first-child {
     margin-left: 0; /* Убираем отступ для первого элемента */
 }
 
+.header-panel{
+    width: content-box;
+    height: 300px;
+    background-color: #a56a50;
+    margin: -30px -30px -30px -30px;
+
+}
