@@ -1,6 +1,5 @@
 .main-container{
     margin-top: 30px;
-
 }
 
 
@@ -56,16 +55,64 @@ figure img{
     width: 100%; /* Ширина изображений */
     height: 100%; /* Высота изображении */
     object-fit: cover; /* Вписываем фотографию в область */
-
     }
 figure:first-child {
     margin-left: 0; /* Убираем отступ для первого элемента */
 }
 
 .header-panel{
-    width: content-box;
-    height: 300px;
-    background-color: #a56a50;
-    margin: -30px -30px -30px -30px;
 
+    margin-top: 20px;
 }
+
+.button-header-home{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(254, 88, 71, 0.77);
+    font-family: "Calibri", "Arial", sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    line-height: 30px;
+    color: cornsilk;
+    display: inline-block;
+}
+.button-header{
+    width: 60px;
+    height: 30px;
+    background-color: rgba(254, 147, 132, 0.77);
+    font-family: "Calibri", "Arial", sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    line-height: 30px;
+    color: cornsilk;
+    display: inline-block;
+}
+
+.info-panel{
+    width: 868px;
+    height: 300px;
+    background-color: darkgrey;
+}
+
+.box-for-pictures{
+    width: 280px;
+    height: 280px;
+    background-color: rgba(168, 154, 98, 0.59);
+    display: inline-block;
+    /*border-radius: 5px;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+    overflow: hidden;
+ }
+
+div img{
+    width: 100%; /* Ширина изображений */
+    height: 100%; /* Высота изображении */
+    object-fit: cover; /* Вписываем фотографию в область */
+}
+
+
